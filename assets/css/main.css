@@ -181,7 +181,7 @@ body,
 input,
 select,
 textarea {
-  color: #fff;
+  color: #597d4c;
   font-family: 'Montserrat', sans-serif;
   font-size: 15pt;
   font-weight: 300 !important;
@@ -259,7 +259,7 @@ a:hover {
   backface-visibility: hidden;
   transform: translate3d(0,0,0);
   /* Set your background with this */
-  background: #348cb2 url("images/bg.jpg") bottom left;
+  background: #e8f0f2 url("images/treesbg.jpg") bottom left;
   background-repeat: repeat-x;
   height: 100%;
   left: 0;
@@ -273,13 +273,13 @@ a:hover {
     transform: translate3d(0,0,0);
   }
   100% {
-    transform: translate3d(-2250px,0,0);
+    transform: translate3d(-1125px,0,0);
   }
 }
 
 #bg {
-  background-size: 2250px auto;
-  width: 6750px;
+  background-size: 1125px auto;
+  width: 3375px;
 }
 
 /* Overlay */
@@ -445,7 +445,7 @@ a:hover {
 #header nav a:before {
   transition: all 0.2s ease-in-out;
   border-radius: 100%;
-  border: solid 1px #fff;
+  border: solid 1px #597d4c;
   display: block;
   font-size: 1.75em;
   height: 2.5em;
@@ -461,8 +461,8 @@ a:hover {
 }
 
 #header nav a:hover:before {
-  background-color: rgba(255, 255, 255, 0.175);
-  color: #fff;
+  background-color: #ffffff2d;
+  color: #597d4c;
 }
 
 #header nav a:active {
@@ -471,8 +471,8 @@ a:hover {
 }
 
 #header nav a:active:before {
-  background-color: rgba(255, 255, 255, 0.35);
-  color: #fff;
+  background-color: #ffffff59;
+  color: #597d4c;
 }
 
 #header nav a span {
@@ -490,6 +490,7 @@ a:hover {
   position: absolute;
   text-align: center;
   width: 100%;
+  color: #fff;
 }
 
 /* Wide */
@@ -507,12 +508,12 @@ a:hover {
       transform: translate3d(0,0,0);
     }
     100% {
-      transform: translate3d(-1500px,0,0);
+      transform: translate3d(-975px,0,0);
     }
   }
   #bg {
-    background-size: 1500px auto;
-    width: 4500px;
+    background-size: 975px auto;
+    width: 2925px;
   }
 }
 
@@ -531,12 +532,12 @@ a:hover {
       transform: translate3d(0,0,0);
     }
     100% {
-      transform: translate3d(-750px,0,0);
+      transform: translate3d(-900px,0,0);
     }
   }
   #bg {
-    background-size: 750px auto;
-    width: 2250px;
+    background-size: 900px auto;
+    width: 2700px;
   }
 }
 
@@ -558,12 +559,12 @@ a:hover {
       transform: translate3d(0,0,0);
     }
     100% {
-      transform: translate3d(-300px,0,0);
+      transform: translate3d(-750px,0,0);
     }
   }
   #bg {
-    background-size: 300px auto;
-    width: 900px;
+    background-size: 750px auto;
+    width: 2250px;
   }
   /* Header */
   #header h1 {
@@ -591,12 +592,12 @@ a:hover {
       transform: translate3d(0,0,0);
     }
     100% {
-      transform: translate3d(-412.5px,0,0);
+      transform: translate3d(-675px,0,0);
     }
   }
   #bg {
-    background-size: 412.5px auto;
-    width: 1237.5px;
+    background-size: 675px auto;
+    width: 2025px;
   }
   /* Header */
   #header nav {
